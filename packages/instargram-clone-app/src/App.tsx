@@ -8,7 +8,7 @@
  ******************************************************************************/
 // Library
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import jQuery from "jquery";
 //
 // Module
@@ -21,7 +21,6 @@ import { PageList } from "./pages/page_list";
 
 const App: React.FunctionComponent<any> = (props) => {
     Object.assign(window, { toast: (str: string) => {} });
-
     Object.assign(window, { $: jQuery });
 
     return (

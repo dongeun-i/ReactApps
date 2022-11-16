@@ -6,23 +6,15 @@
  * set_data -> client data setting
  * lasy modify : dongeun-i
  *
- * TO DO :  constants 네비게이션을 loop 하여 자동 route 생성 기능 추가
+ * TO DO :  login Api Link
  ******************************************************************************/
 //Library
 import React, { useState, useEffect, Suspense, lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-//module
-//pages
-
-export const PageList = () => {
-    const Login = lazy(()=>import("./login"))
-    return (
-        <Suspense fallback={<div>로딩중...</div>}>
-           <Routes>
-                <Route path="/login" element={<Login />} />
-            </Routes>
-        </Suspense>
-    );
+const LoginPage = () => {
+    return <div>login</div>;
 };
+
+export default LoginPage;
