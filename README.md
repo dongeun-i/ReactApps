@@ -1,16 +1,16 @@
 # ReactApps
 React delvelop app 
 
-#instargram-clone-app 
+## instargram-clone-app 
 >인스타그램을 클론코딩하여 만들어보자 . 
 
-#react-study
+## react-study
 >실전 리액트 프로그래밍 개정판 책을 공부하면서 예제를 기록 .
 
-#tajam-app
+## tajam-app
 >퍼블리싱 된 tajam page를 리액트로 구현해보자 .
 
-#shoppingmall-app
+## shoppingmall-app
 >리액트를 이용하여 쇼핑몰 페이지를 만들어 배포하여보자 .
 
 
