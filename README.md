@@ -7,7 +7,6 @@ React delvelop app
 ## react-study
 >실전 리액트 프로그래밍 개정판 책을 공부하면서 예제를 기록 .
 
-  ```
   빌드시 명령어
   ```
   npm run build
