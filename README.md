@@ -11,9 +11,12 @@ npm run build
 
 최초 개발 환경 세팅
 ```
-root 에서 npm install
-cd packages/react-study
-npm start
+npm install
 ```
 
+개발 환경 시작 명령어
+```
+cd packages/react-study
 
+npm start
+```
