@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// 폴리필(polyfill)사용해보기
+// index.js에서 한번만 가져오면 모든곳에서 자유롭게 사용가능.
+import 'core-js/features/string/pad-start';
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
