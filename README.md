@@ -7,6 +7,25 @@ React delvelop app
 ## react-study
 >실전 리액트 프로그래밍 개정판 책을 공부하면서 예제를 기록 .
 
+  ```
+  빌드시 명령어
+  ```
+  npm run build
+  ```
+
+  최초 개발 환경 세팅
+  ```
+  npm install
+  ```
+
+  개발 환경 시작 명령어
+  ```
+  cd packages/react-study
+
+  npm start
+  ```
+
+
 ## tajam-app
 >퍼블리싱 된 tajam page를 리액트로 구현해보자 .
 
