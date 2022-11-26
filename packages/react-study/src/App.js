@@ -5,6 +5,7 @@ import "./test.css";
 // import bigImg from "./big.jpeg";
 import TodoList from "./components/todoListBtn/TodoList";
 import Button1 from "./components/Btn/button1";
+import Button2 from "./components/Btn/button2";
 import Box1 from "./components/Box/Box1";
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
                 <Box1 size="big"></Box1>
                 <Button1 size="big"></Button1>
                 <Button1 size="small"></Button1>
+                <Button2 size="big"></Button2>
+                <Button2 size="small"></Button2>
             </div>
         </div>
     );
