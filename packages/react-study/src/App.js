@@ -1,27 +1,29 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
+import Rooms from "./page/rooms.page";
 
 export default function App() {
-    useEffect(() => {
-        console.log("popstate 명시");
-        window.onpopstate = function (event) {
-            console.log(
-                `location : ${document.location}, state : ${event.state}`
-            );
-        };
-    }, []);
-
     return (
-        <div>
-            <button
-                onClick={() => window.history.pushState("v1", "", "/page1")}
-            >
-                page1
-            </button>
-            <button
-                onClick={() => window.history.pushState("v2", "", "/page2")}
-            >
-                page2
-            </button>
-        </div>
+        <BrowserRouter>
+            <div style={{ padding: 20, border: "5px solid gray" }}>
+                <Link to="/">홈</Link>
+                <br />
+                <Link to="/photo">사진</Link>
+                <br />
+                <Link to="/rooms">방 소개</Link>
+                <br />
+                <Routes>
+                    <Route exact path="/" element={<Home />} />
+                    <Route path="/photo" element={<Photo />} />
+                    <Route path="/rooms/*" element={<Rooms />} />
+                </Routes>
+            </div>
+        </BrowserRouter>
     );
 }
+const Home = ({ match }) => {
+    return <h2>여기는 홈화면 입니다.</h2>;
+};
+const Photo = ({ match }) => {
+    return <h2>여기서 사진을 감상하세요.</h2>;
+};
