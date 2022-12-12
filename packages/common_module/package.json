@@ -1,0 +1,26 @@
+{
+  "name": "common_module",
+  "version": "0.0.0",
+  "description": "redux-module",
+  "author": "dongeun-l <dongeun1014@naver.com>",
+  "homepage": "https://github.com/dongeun-i/ReactApps#readme",
+  "license": "ISC",
+  "main": "lib/common_module.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongeun-i/ReactApps.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/common_module.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/dongeun-i/ReactApps/issues"
+  }
+}
